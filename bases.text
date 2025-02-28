@@ -1,0 +1,87 @@
+mern-ecommerce/
+│
+├── client/                     # React frontend
+│   ├── public/
+│   │   ├── images/
+│   │   └── index.html
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   │   ├── Header.js
+│   │   │   │   ├── Footer.js
+│   │   │   │   └── Navigation.js
+│   │   │   │
+│   │   │   ├── home/
+│   │   │   │   ├── HeroBanner.js
+│   │   │   │   ├── FeaturedProducts.js
+│   │   │   │   └── CategoryDisplay.js
+│   │   │   │
+│   │   │   ├── products/
+│   │   │   │   ├── ProductCard.js
+│   │   │   │   ├── ProductGrid.js
+│   │   │   │   ├── ProductDetail.js
+│   │   │   │   └── FilterBar.js
+│   │   │   │
+│   │   │   ├── cart/
+│   │   │   │   ├── CartItem.js
+│   │   │   │   ├── CartSummary.js
+│   │   │   │   └── Checkout.js
+│   │   │   │
+│   │   │   └── auth/
+│   │   │       ├── LoginForm.js
+│   │   │       ├── RegisterForm.js
+│   │   │       └── UserProfile.js
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── HomePage.js
+│   │   │   ├── ProductsPage.js
+│   │   │   ├── ProductDetailPage.js
+│   │   │   ├── CartPage.js
+│   │   │   ├── CheckoutPage.js
+│   │   │   ├── LoginPage.js
+│   │   │   └── RegisterPage.js
+│   │   │
+│   │   ├── redux/
+│   │   │   ├── store.js
+│   │   │   ├── actions/
+│   │   │   └── reducers/
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── api.js
+│   │   │   └── helpers.js
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+├── server/                    # Node.js/Express backend
+│   ├── config/
+│   │   ├── db.js
+│   │   └── config.js
+│   │
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── userController.js
+│   │   └── orderController.js
+│   │
+│   ├── models/
+│   │   ├── Product.js
+│   │   ├── User.js
+│   │   └── Order.js
+│   │
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   ├── userRoutes.js
+│   │   └── orderRoutes.js
+│   │
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── errorMiddleware.js
+│   │
+│   ├── uploads/
+│   ├── server.js
+│   └── package.json
+│
+└── package.json               # Root package.json for scripts
