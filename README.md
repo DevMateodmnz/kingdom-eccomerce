@@ -16,8 +16,8 @@ This guide will help you set up and run your MERN (MongoDB, Express, React, Node
 Start by creating the project structure as outlined in the documentation.
 
 ```bash
-mkdir mern-ecommerce
-cd mern-ecommerce
+mkdir kingdom-ecommerce
+cd kingdom-ecommerce
 ```
 
 ### 2. Backend Setup
