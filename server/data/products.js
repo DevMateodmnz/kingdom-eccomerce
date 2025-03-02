@@ -36,7 +36,22 @@ const products = [
       isFeatured: true,
       isNewArrival: true,
     },
-    {
-      name: 'Brown Leather Jacket',
-      images: ['/images/products/leather-jacket.jpg'],
-      description:
+        {
+          name: 'Brown Leather Jacket',
+          images: ['/images/products/leather-jacket.jpg'],
+          description:
+            'A stylish brown leather jacket made from genuine leather. Perfect for a casual or semi-formal look.',
+          brand: 'The Kingdom',
+          category: 'Clothing',
+          subCategory: 'Jackets',
+          price: 199.99,
+          countInStock: 5,
+          rating: 4.8,
+          numReviews: 15,
+          sizes: ['S', 'M', 'L', 'XL'],
+          colors: ['Brown'],
+          discount: 0,
+          isFeatured: true,
+          isNewArrival: true,
+        },
+    ];
