@@ -15,15 +15,9 @@ import ProductDetailPage from './pages/ProductDetailPage';
 import CartPage from './pages/CartPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import ProfilePage from './pages/ProfilePage';
-import ShippingPage from './pages/ShippingPage';
-import PaymentPage from './pages/PaymentPage';
-import PlaceOrderPage from './pages/PlaceOrderPage';
-import OrderPage from './pages/OrderPage';
+
 
 // Protected Route Component
-import PrivateRoute from './components/routing/PrivateRoute';
-import AdminRoute from './components/routing/AdminRoute';
 
 function App() {
   return (
@@ -39,48 +33,7 @@ function App() {
               <Route path="/cart" element={<CartPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />
-              
-              {/* Private Routes */}
-              <Route 
-                path="/profile" 
-                element={
-                  <PrivateRoute>
-                    <ProfilePage />
-                  </PrivateRoute>
-                } 
-              />
-              <Route 
-                path="/shipping" 
-                element={
-                  <PrivateRoute>
-                    <ShippingPage />
-                  </PrivateRoute>
-                } 
-              />
-              <Route 
-                path="/payment" 
-                element={
-                  <PrivateRoute>
-                    <PaymentPage />
-                  </PrivateRoute>
-                } 
-              />
-              <Route 
-                path="/placeorder" 
-                element={
-                  <PrivateRoute>
-                    <PlaceOrderPage />
-                  </PrivateRoute>
-                } 
-              />
-              <Route 
-                path="/order/:id" 
-                element={
-                  <PrivateRoute>
-                    <OrderPage />
-                  </PrivateRoute>
-                } 
-              />
+            
             </Routes>
           </main>
           <Footer />

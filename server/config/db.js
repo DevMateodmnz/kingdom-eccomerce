@@ -1,4 +1,3 @@
-// server/config/db.js
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
@@ -14,5 +13,4 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
-
 module.exports = connectDB;
