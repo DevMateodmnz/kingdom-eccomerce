@@ -7,6 +7,8 @@ import {
   PRODUCT_DETAILS_REQUEST,
   PRODUCT_DETAILS_SUCCESS,
   PRODUCT_DETAILS_FAIL,
+  PRODUCT_DELETE_REQUEST,
+
 } from '../constants/productConstants';
 
 // Action to fetch all products
@@ -63,4 +65,16 @@ export const listProductDetails = (id) => async (dispatch) => {
     const { data } = await axios.get(`/api/products/${id}`);
 
     dispatch({
-      type: PRODUCT_DETAILS
+            type: PRODUCT_DETAILS_SUCCESS,
+            payload: data,
+          });
+        } catch (error) {
+          dispatch({
+            type: PRODUCT_DETAILS_FAIL,
+            payload:
+              error.response && error.response.data.message
+                ? error.response.data.message
+                : error.message,
+          });
+        }
+      };
