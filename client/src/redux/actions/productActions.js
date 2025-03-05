@@ -55,5 +55,12 @@ export const listFeaturedProducts = () => async (dispatch) => {
   }
 };
 
-// Action to fetch new arrivals
-export const listNewArrivals = () => async (dispatch)
+// Action to fetch single product details
+export const listProductDetails = (id) => async (dispatch) => {
+  try {
+    dispatch({ type: PRODUCT_DETAILS_REQUEST });
+
+    const { data } = await axios.get(`/api/products/${id}`);
+
+    dispatch({
+      type: PRODUCT_DETAILS
