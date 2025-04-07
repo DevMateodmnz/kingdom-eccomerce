@@ -1,0 +1,97 @@
+🛍️ Informe de Requerimientos - Tienda Online Ecommerce
+📌 Información general
+El diseño de la tienda se basará en la estética y estructura del sitio actualmente visible en:
+👉 https://thekingdom.empretienda.com.ar
+
+El objetivo principal es crear una tienda profesional, moderna y funcional, optimizada para la experiencia del usuario, tanto en dispositivos móviles como en escritorio.
+
+🧾 Funcionalidades confirmadas
+✅ Usuarios
+Registro e inicio de sesión mediante cuenta de Google o Instagram.
+
+Creación automática de sesión para llevar control del historial de compras.
+
+Acceso a un panel personal donde podrán:
+
+Ver historial de pedidos.
+
+Modificar su dirección.
+
+Cancelar pedidos (siempre que aún no hayan sido enviados).
+
+✅ Carrito y compras
+Carrito de compras funcional para seleccionar productos antes del pago.
+
+Cálculo automático del envío según dirección del cliente.
+
+Métodos de pago aceptados:
+
+Transferencia bancaria.
+
+MercadoPago.
+
+Tarjetas de crédito y débito.
+
+✅ Envíos
+Solo se realizarán por:
+
+Correo Argentino.
+
+Andreani.
+
+El cliente recibirá por WhatsApp:
+
+Confirmación del pedido.
+
+Código de seguimiento, enviado por un bot automatizado.
+
+✅ Stock
+Cada producto mostrará la cantidad disponible.
+
+El stock se descontará automáticamente al concretarse la compra.
+
+🛠️ Panel de administración (Admin)
+Desde el panel de administrador se podrá:
+
+Agregar, editar y eliminar productos.
+
+Cargar imágenes de productos o banners del sitio.
+
+Ver direcciones y pedidos de los clientes.
+
+Aplicar descuentos a productos manualmente.
+
+Organizar el contenido visual de la página.
+
+Publicar artículos en una sección de Blog/Novedades.
+
+🧩 Otras funcionalidades
+Sitio optimizado para móviles y escritorio (responsive).
+
+Preparado para SEO básico: títulos, descripciones, URLs limpias.
+
+Disponible solo para clientes dentro de Argentina.
+
+Sección institucional “Sobre nosotros”, con la historia, identidad y misión de la marca/movimiento.
+
+Sistema de reseñas: los usuarios podrán dejar valoraciones en los productos.
+
+Blog o sección de noticias: para compartir novedades, lanzamientos o reflexiones del movimiento.
+
+Botón de contacto por WhatsApp visible en todo el sitio.
+
+📦 Despliegue y dominio
+El dominio ya es propio.
+
+El sitio será desplegado en el servidor que mejor se adapte al rendimiento, escalabilidad y presupuesto (opciones posibles: Vercel, Render, Railway, Netlify, etc.).
+
+🔐 Pendiente: Seguridad y políticas
+Para cumplir con la normativa vigente y generar confianza en los usuarios, se recomienda agregar:
+
+Política de privacidad (cómo se usan los datos del usuario).
+
+Términos y condiciones (uso del sitio, compras, envíos, devoluciones).
+
+Aviso de cookies si se utilizan.
+
+📝 Podemos ayudarte a redactar estas políticas según el tipo de negocio y los requerimientos legales básicos.
