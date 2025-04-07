@@ -1,0 +1,134 @@
+🛠️ PLAN DE DESARROLLO - ECOMMERCE CON STACK MERN
+🚧 ETAPA 1: Planificación y configuración inicial
+✅ Tareas
+ Crear un repositorio Git (separado por frontend y backend si querés).
+
+ Crear estructura de carpetas para el proyecto.
+
+ Definir el esquema de base de datos (ver más abajo).
+
+ Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
+
+ Configurar ESLint + Prettier (opcional).
+
+ Configurar .env y variables sensibles.
+
+🗃️ ETAPA 2: Backend (Node.js + Express + MongoDB)
+🔧 Tareas del backend
+ Conectar MongoDB (Atlas o local).
+
+ Crear modelos:
+
+ Usuario (cliente/admin)
+
+ Producto
+
+ Pedido
+
+ Reseña
+
+ Blog/Novedad
+
+ Dirección
+
+ Código de seguimiento
+
+ Configuración general (si querés centralizar cosas como promociones activas)
+
+ Implementar rutas protegidas y públicas.
+
+ Autenticación (JWT + login con Google/Instagram).
+
+ CRUD de productos.
+
+ CRUD de pedidos.
+
+ CRUD de blogs/novedades.
+
+ CRUD de reseñas.
+
+ Manejo de stock automático.
+
+ Cálculo de envío automático (según dirección).
+
+ CRUD de direcciones.
+
+ Panel Admin (endpoint para ver/modificar todo).
+
+ Webhook con WhatsApp (si se usa Twilio o una API de WhatsApp Business).
+
+ Endpoint para enviar mensajes automáticos con estado del pedido.
+
+🖥️ ETAPA 3: Frontend (React + Tailwind)
+🌐 Tareas del frontend
+ Diseño base responsivo.
+
+ Navbar con login/logout, ícono de carrito, acceso admin si corresponde.
+
+ Página de productos con búsqueda y filtros.
+
+ Página de producto individual con botón “Agregar al carrito”.
+
+ Carrito funcional (context o redux).
+
+ Checkout con selección de dirección + método de pago.
+
+ Login con Google/Instagram.
+
+ Página de perfil del usuario (historial de pedidos, editar dirección, cancelar).
+
+ Página “Sobre nosotros”.
+
+ Página de contacto con botón de WhatsApp.
+
+ Página de reseñas (y formulario para dejar una).
+
+ Sección Blog/Novedades.
+
+ Panel de administración:
+
+ CRUD de productos.
+
+ CRUD de blogs/novedades.
+
+ Ver y editar pedidos.
+
+ Subida de imágenes (Cloudinary o similar).
+
+ Aplicar descuentos.
+
+💬 ETAPA 4: Integraciones
+🔗 Tareas
+ MercadoPago (SDK frontend + backend).
+
+ WhatsApp API / Bot (validar con Twilio u otro proveedor).
+
+ Cloudinary para imágenes.
+
+ Google OAuth login.
+
+ SEO básico: título dinámico, metatags, descripción por producto, etc.
+
+ Sitemap y robots.txt.
+
+🚀 ETAPA 5: Despliegue
+🌍 Tareas
+ Desplegar backend (Render, Railway, etc.).
+
+ Desplegar frontend (Vercel, Netlify, etc.).
+
+ Conectar dominio.
+
+ Configurar HTTPS (si no viene por defecto).
+
+ Pruebas finales (test de compra, registro, envío, etc.).
+
+📃 ETAPA 6: Documentación y soporte
+📝 Tareas
+ Crear documentación para el cliente (cómo usar el panel admin).
+
+ Crear manual breve para gestionar productos, reseñas, pedidos.
+
+ Agregar texto base de políticas de privacidad, términos y condiciones.
+
+ Soporte post-lanzamiento (arreglos, cambios menores, capacitación si hace falta).
