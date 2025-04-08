@@ -1,134 +1,134 @@
 🛠️ PLAN DE DESARROLLO - ECOMMERCE CON STACK MERN
 🚧 ETAPA 1: Planificación y configuración inicial
 ✅ Tareas
- Crear un repositorio Git (separado por frontend y backend si querés).
+ 1.Crear un repositorio Git (separado por frontend y backend si querés).
 
- Crear estructura de carpetas para el proyecto.
+ 2.Crear estructura de carpetas para el proyecto.
 
- Definir el esquema de base de datos (ver más abajo).
+ 3.Definir el esquema de base de datos (ver más abajo).
 
- Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
+ 4.Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
 
- Configurar ESLint + Prettier (opcional).
+ 5.Configurar ESLint + Prettier (opcional).
 
- Configurar .env y variables sensibles.
+ 6.Configurar .env y variables sensibles.
 
 🗃️ ETAPA 2: Backend (Node.js + Express + MongoDB)
 🔧 Tareas del backend
- Conectar MongoDB (Atlas o local).
+ 1.Conectar MongoDB (Atlas o local).
 
- Crear modelos:
+ 2.Crear modelos:
 
- Usuario (cliente/admin)
+ 21Usuario (cliente/admin)
 
- Producto
+ 22Producto
 
- Pedido
+ 23Pedido
 
- Reseña
+ 24Reseña
 
- Blog/Novedad
+ 25Blog/Novedad
 
- Dirección
+ 26Dirección
 
- Código de seguimiento
+ 27Código de seguimiento
 
- Configuración general (si querés centralizar cosas como promociones activas)
+ 28Configuración general (si querés centralizar cosas como promociones activas)
 
- Implementar rutas protegidas y públicas.
+ 3.Implementar rutas protegidas y públicas.
 
- Autenticación (JWT + login con Google/Instagram).
+ 4.Autenticación (JWT + login con Google/Instagram).
 
- CRUD de productos.
+ 5.CRUD de productos.
 
- CRUD de pedidos.
+ 6.CRUD de pedidos.
 
- CRUD de blogs/novedades.
+ 7.CRUD de blogs/novedades.
 
- CRUD de reseñas.
+ 8.CRUD de reseñas.
 
- Manejo de stock automático.
+ 9.Manejo de stock automático.
 
- Cálculo de envío automático (según dirección).
+ 10.Cálculo de envío automático (según dirección).
 
- CRUD de direcciones.
+ 11.CRUD de direcciones.
 
- Panel Admin (endpoint para ver/modificar todo).
+ 12.Panel Admin (endpoint para ver/modificar todo).
 
- Webhook con WhatsApp (si se usa Twilio o una API de WhatsApp Business).
+ 13.Webhook con WhatsApp (si se usa Twilio o una API de WhatsApp Business).
 
- Endpoint para enviar mensajes automáticos con estado del pedido.
+ 14.Endpoint para enviar mensajes automáticos con estado del pedido.
 
 🖥️ ETAPA 3: Frontend (React + Tailwind)
 🌐 Tareas del frontend
- Diseño base responsivo.
+ 1.Diseño base responsivo.
 
- Navbar con login/logout, ícono de carrito, acceso admin si corresponde.
+ 2.Navbar con login/logout, ícono de carrito, acceso admin si corresponde.
 
- Página de productos con búsqueda y filtros.
+ 3.Página de productos con búsqueda y filtros.
 
- Página de producto individual con botón “Agregar al carrito”.
+ 4.Página de producto individual con botón “Agregar al carrito”.
 
- Carrito funcional (context o redux).
+ 5.Carrito funcional (context o redux).
 
- Checkout con selección de dirección + método de pago.
+ 6.Checkout con selección de dirección + método de pago.
 
- Login con Google/Instagram.
+ 7.Login con Google/Instagram.
 
- Página de perfil del usuario (historial de pedidos, editar dirección, cancelar).
+ 8.Página de perfil del usuario (historial de pedidos, editar dirección, cancelar).
 
- Página “Sobre nosotros”.
+ 9.Página “Sobre nosotros”.
 
- Página de contacto con botón de WhatsApp.
+ 10.Página de contacto con botón de WhatsApp.
 
- Página de reseñas (y formulario para dejar una).
+ 11.Página de reseñas (y formulario para dejar una).
 
- Sección Blog/Novedades.
+ 12.Sección Blog/Novedades.
 
- Panel de administración:
+ 13.Panel de administración:
 
- CRUD de productos.
+ 14.CRUD de productos.
 
- CRUD de blogs/novedades.
+ 15.CRUD de blogs/novedades.
 
- Ver y editar pedidos.
+ 16.Ver y editar pedidos.
 
- Subida de imágenes (Cloudinary o similar).
+ 17.Subida de imágenes (Cloudinary o similar).
 
- Aplicar descuentos.
+ 18.Aplicar descuentos.
 
 💬 ETAPA 4: Integraciones
 🔗 Tareas
- MercadoPago (SDK frontend + backend).
+ 1.MercadoPago (SDK frontend + backend).
 
- WhatsApp API / Bot (validar con Twilio u otro proveedor).
+ 2.WhatsApp API / Bot (validar con Twilio u otro proveedor).
 
- Cloudinary para imágenes.
+ 3.Cloudinary para imágenes.
 
- Google OAuth login.
+ 4.Google OAuth login.
 
- SEO básico: título dinámico, metatags, descripción por producto, etc.
+ 5.SEO básico: título dinámico, metatags, descripción por producto, etc.
 
- Sitemap y robots.txt.
+ 6.Sitemap y robots.txt.
 
 🚀 ETAPA 5: Despliegue
 🌍 Tareas
- Desplegar backend (Render, Railway, etc.).
+ 1.Desplegar backend (Render, Railway, etc.).
 
- Desplegar frontend (Vercel, Netlify, etc.).
+ 2.Desplegar frontend (Vercel, Netlify, etc.).
 
- Conectar dominio.
+ 3.Conectar dominio.
 
- Configurar HTTPS (si no viene por defecto).
+ 4.Configurar HTTPS (si no viene por defecto).
 
- Pruebas finales (test de compra, registro, envío, etc.).
+ 5.Pruebas finales (test de compra, registro, envío, etc.).
 
 📃 ETAPA 6: Documentación y soporte
 📝 Tareas
- Crear documentación para el cliente (cómo usar el panel admin).
+ 1.Crear documentación para el cliente (cómo usar el panel admin).
 
- Crear manual breve para gestionar productos, reseñas, pedidos.
+ 2.Crear manual breve para gestionar productos, reseñas, pedidos.
 
- Agregar texto base de políticas de privacidad, términos y condiciones.
+ 3.Agregar texto base de políticas de privacidad, términos y condiciones.
 
- Soporte post-lanzamiento (arreglos, cambios menores, capacitación si hace falta).
+ 4.Soporte post-lanzamiento (arreglos, cambios menores, capacitación si hace falta).
