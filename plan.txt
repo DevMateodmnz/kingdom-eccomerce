@@ -1,15 +1,15 @@
 🛠️ PLAN DE DESARROLLO - ECOMMERCE CON STACK MERN
 🚧 ETAPA 1: Planificación y configuración inicial
 ✅ Tareas
- 1.Crear un repositorio Git (separado por frontend y backend si querés).
+ ✅1.Crear un repositorio Git (separado por frontend y backend si querés).
 
- 2.Crear estructura de carpetas para el proyecto.
+ ✅2.Crear estructura de carpetas para el proyecto.
 
- 3.Definir el esquema de base de datos (ver más abajo).
+ ✅3.Definir el esquema de base de datos (ver más abajo).
 
- 4.Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
+✅ 4.Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
 
- 5.Configurar ESLint + Prettier (opcional).
+ ✅5.Configurar ESLint + Prettier (opcional).
 
  6.Configurar .env y variables sensibles.
 
