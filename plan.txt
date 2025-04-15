@@ -33,7 +33,7 @@
 
  ✅27Código de seguimiento
 
- 28Configuración general (si querés centralizar cosas como promociones activas)
+ ✅28Configuración general (si querés centralizar cosas como promociones activas)
 
  3.Implementar rutas protegidas y públicas.
 
