@@ -7,15 +7,15 @@
 
  ✅3.Definir el esquema de base de datos (ver más abajo).
 
-✅ 4.Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
+ ✅ 4.Instalar dependencias principales (Express, Mongoose, React, Tailwind, etc.).
 
  ✅5.Configurar ESLint + Prettier (opcional).
 
- 6.Configurar .env y variables sensibles.
+ ✅6.Configurar .env y variables sensibles.
 
 🗃️ ETAPA 2: Backend (Node.js + Express + MongoDB)
 🔧 Tareas del backend
- 1.Conectar MongoDB (Atlas o local).
+ ✅1.Conectar MongoDB (Atlas o local).
 
  2.Crear modelos:
 
