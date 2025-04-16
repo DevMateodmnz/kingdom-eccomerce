@@ -69,7 +69,7 @@
 
  4.Página de producto individual con botón “Agregar al carrito”.
 
- 5.Carrito funcional (context o redux).
+ ✅5.Carrito funcional (context o redux).
 
  6.Checkout con selección de dirección + método de pago.
 
